@@ -1,0 +1,21 @@
+Introduction:
+The goal of this project was to develop a machine learning model that could predict the length of a product using catalog metadata. The dataset consisted of 2.2 million products, and we aimed to create a model that could accurately predict product length based on product title, description, bullet points, and product type ID.
+
+Data Preprocessing:
+We used the Interquartile Range (IQR) method to clean the data and remove outliers. We also performed feature engineering, including creating new features from the product title and bullet points. We normalized the data using MinMaxScaler and split it into training and testing sets.
+
+Model Selection and Training:
+We evaluated several regression models, including Linear Regression, Random Forest Regression, and Gradient Boosting Regression. After comparing their performance, we chose to use Random Forest Regression due to its higher accuracy. We trained and fine-tuned the model using GridSearchCV.
+
+Evaluation:
+We evaluated the model's performance using mean absolute percentage error (MAPE) and achieved a score of 37.88%. The model was able to accurately predict product length based on catalog metadata, even with some noise in the data.
+
+Discussion:
+While our model performed well, there is still room for improvement. Additional feature engineering techniques and different regression models could be explored to improve the accuracy even further.
+
+Conclusion:
+In conclusion, we were able to successfully develop a machine learning model that could predict product length based on catalog metadata. Our model achieved a score of 37% and could be improved upon with further research and experimentation.
+
+
+
+
